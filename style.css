@@ -1,0 +1,25 @@
+h1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px 50px 0px;
+}
+
+#grid-container {
+    display: flex;
+    justify-content: center;
+}
+
+#clear-grid {
+    height: 100px;
+    position: relative;
+}
+
+#clear-grid-button {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
